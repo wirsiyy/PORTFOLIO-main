@@ -71,6 +71,7 @@ html{
     cursor: pointer;
     transition: .4s;
     border-radius: 7px;
+    text-decoration: none;
 }
 .btn>i{
     margin-left: 10px;
