@@ -149,8 +149,8 @@ document.addEventListener('DOMContentLoaded', function() {
     downloadButtons.forEach(button => {
         button.addEventListener('click', function() {
             const link = document.createElement('a');
-            link.href = './assets/docs/cv.pdf';
-            link.download = 'cv.pdf';
+            link.href = './assets/docs/resumee_040033.pdf';
+            link.download = 'resumee_040033.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
